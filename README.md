@@ -15,4 +15,4 @@ By [Byungseok Roh](peter.roh@kakaobrain.com)\*,  [Jaewoong Shin](gauss148@gmail.
 
 ---
 
-Code will be updated.
+The code will be updated soon.

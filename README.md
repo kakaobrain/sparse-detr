@@ -5,7 +5,7 @@
 Sparse DETR
 ========
 
-By [Byungseok Roh](mailto:peter.roh@kakaobrain.com)\*,  [Jaewoong Shin](mailto:gauss148@gmail.com)\*,  [Wuhyun Shin](mailto:aiden.hsin@kakaobrain.com)\*, and [Saehoon Kim](mailto:sam.ksh@kakaobrain.com) at [Kakao Brain](https://www.kakaobrain.com).
+By [Byungseok Roh](https://scholar.google.com/citations?user=H4VWYHwAAAAJ)\*,  [Jaewoong Shin](https://scholar.google.com/citations?user=i_o_95kAAAAJ)\*,  [Wuhyun Shin](https://scholar.google.com/citations?user=bGwfkakAAAAJ)\*, and [Saehoon Kim](https://scholar.google.com/citations?user=_ZfueMIAAAAJ) at [Kakao Brain](https://www.kakaobrain.com).
 (*: Equal contribution)
 
 * This repository is an official implementation of the paper Sparse DETR: Efficient End-to-End Object Detection with Learnable Sparsity.

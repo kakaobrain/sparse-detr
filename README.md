@@ -73,7 +73,7 @@ code_root/
 
 ### Training on a single node
 
-For example, the command for training Sparse DETR with keeping the ratio of 10% on 8 GPUs is as follows:
+For example, the command for training Sparse DETR with the keeping ratio of 10% on 8 GPUs is as follows:
 
 ```bash
 $ GPUS_PER_NODE=8 ./tools/run_dist_launch.sh 8 ./configs/swint_sparse_detr_rho_0.1.sh
@@ -81,7 +81,7 @@ $ GPUS_PER_NODE=8 ./tools/run_dist_launch.sh 8 ./configs/swint_sparse_detr_rho_0
 
 ### Training on multiple nodes
 
-For example, the command Sparse DETR with keeping the ratio of 10% on 2 nodes of each with 8 GPUs is as follows:
+For example, the command Sparse DETR with the keeping ratio of 10% on 2 nodes of each with 8 GPUs is as follows:
 
 On node 1:
 

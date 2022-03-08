@@ -2,7 +2,7 @@
 [![pytorch](https://img.shields.io/badge/pytorch-1.6.0-%2523ee4c2c.svg)](https://pytorch.org/)
 [![pytorch](https://img.shields.io/badge/pytorch-1.7.1-%2523ee4c2c.svg)](https://pytorch.org/)
 
-Sparse DETR
+Sparse DETR (ICLR'22)
 ========
 
 By [Byungseok Roh](https://scholar.google.com/citations?user=H4VWYHwAAAAJ)\*,  [Jaewoong Shin](https://scholar.google.com/citations?user=i_o_95kAAAAJ)\*,  [Wuhyun Shin](https://scholar.google.com/citations?user=bGwfkakAAAAJ)\*, and [Saehoon Kim](https://scholar.google.com/citations?user=_ZfueMIAAAAJ) at [Kakao Brain](https://www.kakaobrain.com).

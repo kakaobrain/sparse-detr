@@ -183,13 +183,11 @@ The performance of Sparse DETR can be further improved when the backbone network
 # Citation
 If you find Sparse DETR useful in your research, please consider citing:
 ```bibtex
-@misc{roh2021sparse,
-      title={Sparse DETR: Efficient End-to-End Object Detection with Learnable Sparsity}, 
-      author={Byungseok Roh and JaeWoong Shin and Wuhyun Shin and Saehoon Kim},
-      year={2021},
-      eprint={2111.14330},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+@inproceedings{roh2022sparse,
+  title={Sparse DETR: Efficient End-to-End Object Detection with Learnable Sparsity},
+  author={Roh, Byungseok and Shin, JaeWoong and Shin, Wuhyun and Kim, Saehoon},
+  booktitle={ICLR},
+  year={2022}
 }
 ```
 

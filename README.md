@@ -144,11 +144,11 @@ The tables below demonstrate the detection performance of Sparse DETR on the COC
 |                    | 500    | 50% |             | 43.1 |            |        |       |          |
 | Deformable-DETR    | 50     | N/A |             | 43.9 | 39.8M      | 172.9G | 19.1  |          |
 |                    | 50     | N/A | o           | 46.0 | 40.8M      | 177.3G | 18.2  |          |
-| Sparse-DETR        | 50     | 10% | o           | 45.3 | 40.9M      | 105.4G | 26.5  | [link](https://arena.kakaocdn.net/brainrepo/sparse_detr/sparse_detr_r50_10.pth)     |
-|                    | 50     | 20% | o           | 45.6 | 40.9M      | 112.9G | 24.8  | [link](https://arena.kakaocdn.net/brainrepo/sparse_detr/sparse_detr_r50_20.pth)     |
-|                    | 50     | 30% | o           | 46.0 | 40.9M      | 120.5G | 23.2  | [link](https://arena.kakaocdn.net/brainrepo/sparse_detr/sparse_detr_r50_30.pth)     |
-|                    | 50     | 40% | o           | 46.2 | 40.9M      | 128.0G | 21.8  | [link](https://arena.kakaocdn.net/brainrepo/sparse_detr/sparse_detr_r50_40.pth)     |
-|                    | 50     | 50% | o           | 46.3 | 40.9M      | 135.6G | 20.5  | [link](https://arena.kakaocdn.net/brainrepo/sparse_detr/sparse_detr_r50_50.pth)     |
+| Sparse-DETR        | 50     | 10% | o           | 45.3 | 40.9M      | 105.4G | 26.5  | [link](https://twg.kakaocdn.net/brainrepo/sparse_detr/sparse_detr_r50_10.pth)     |
+|                    | 50     | 20% | o           | 45.6 | 40.9M      | 112.9G | 24.8  | [link](https://twg.kakaocdn.net/brainrepo/sparse_detr/sparse_detr_r50_20.pth)     |
+|                    | 50     | 30% | o           | 46.0 | 40.9M      | 120.5G | 23.2  | [link](https://twg.kakaocdn.net/brainrepo/sparse_detr/sparse_detr_r50_30.pth)     |
+|                    | 50     | 40% | o           | 46.2 | 40.9M      | 128.0G | 21.8  | [link](https://twg.kakaocdn.net/brainrepo/sparse_detr/sparse_detr_r50_40.pth)     |
+|                    | 50     | 50% | o           | 46.3 | 40.9M      | 135.6G | 20.5  | [link](https://twg.kakaocdn.net/brainrepo/sparse_detr/sparse_detr_r50_50.pth)     |
 
 
 
@@ -159,11 +159,11 @@ The tables below demonstrate the detection performance of Sparse DETR on the COC
 | DETR            | 500    | N/A |             | 45.4 | 45.0M      | 91.6G  | 26.8  |          |
 | Deformable-DETR | 50     | N/A |             | 45.7 | 40.3M      | 180.4G | 15.9  |          |
 |                 | 50     | N/A | o           | 48.0 | 41.3M      | 184.8G | 15.4  |          |
-| Sparse-DETR     | 50     | 10% | o           | 48.2 | 41.4M      | 113.4G | 21.2  | [link](https://arena.kakaocdn.net/brainrepo/sparse_detr/sparse_detr_swint_10.pth)     |
-|                 | 50     | 20% | o           | 48.8 | 41.4M      | 121.0G | 20    | [link](https://arena.kakaocdn.net/brainrepo/sparse_detr/sparse_detr_swint_20.pth)     |
-|                 | 50     | 30% | o           | 49.1 | 41.4M      | 128.5G | 18.9  | [link](https://arena.kakaocdn.net/brainrepo/sparse_detr/sparse_detr_swint_30.pth)     |
-|                 | 50     | 40% | o           | 49.2 | 41.4M      | 136.1G | 18    | [link](https://arena.kakaocdn.net/brainrepo/sparse_detr/sparse_detr_swint_40.pth)     |
-|                 | 50     | 50% | o           | 49.3 | 41.4M      | 143.7G | 17.2  | [link](https://arena.kakaocdn.net/brainrepo/sparse_detr/sparse_detr_swint_50.pth)     |
+| Sparse-DETR     | 50     | 10% | o           | 48.2 | 41.4M      | 113.4G | 21.2  | [link](https://twg.kakaocdn.net/brainrepo/sparse_detr/sparse_detr_swint_10.pth)     |
+|                 | 50     | 20% | o           | 48.8 | 41.4M      | 121.0G | 20    | [link](https://twg.kakaocdn.net/brainrepo/sparse_detr/sparse_detr_swint_20.pth)     |
+|                 | 50     | 30% | o           | 49.1 | 41.4M      | 128.5G | 18.9  | [link](https://twg.kakaocdn.net/brainrepo/sparse_detr/sparse_detr_swint_30.pth)     |
+|                 | 50     | 40% | o           | 49.2 | 41.4M      | 136.1G | 18    | [link](https://twg.kakaocdn.net/brainrepo/sparse_detr/sparse_detr_swint_40.pth)     |
+|                 | 50     | 50% | o           | 49.3 | 41.4M      | 143.7G | 17.2  | [link](https://twg.kakaocdn.net/brainrepo/sparse_detr/sparse_detr_swint_50.pth)     |
 
 
 ## Initializing ResNet-50 backbone with SCRL
@@ -173,11 +173,11 @@ The performance of Sparse DETR can be further improved when the backbone network
  
 | Method      | ρ   | AP(IN-sup) | AP(SCRL) | AP(gain) | Download |
 |:-----------:|:---:|:-----------:|:--------:|:--------:|:--------:|
-| Sparse DETR | 10% | 45.3        | 46.9     | +1.6     | [link](https://arena.kakaocdn.net/brainrepo/sparse_detr/sparse_detr_r50_scrl_10.pth)     |
-|             | 20% | 45.6        | 47.2     | +1.7     | [link](https://arena.kakaocdn.net/brainrepo/sparse_detr/sparse_detr_r50_scrl_20.pth)     |
-|             | 30% | 46.0        | 47.4     | +1.4     | [link](https://arena.kakaocdn.net/brainrepo/sparse_detr/sparse_detr_r50_scrl_30.pth)     |
-|             | 40% | 46.2        | 47.7     | +1.5     | [link](https://arena.kakaocdn.net/brainrepo/sparse_detr/sparse_detr_r50_scrl_40.pth)     |
-|             | 50% | 46.3        | 47.9     | +1.6     | [link](https://arena.kakaocdn.net/brainrepo/sparse_detr/sparse_detr_r50_scrl_50.pth)     |
+| Sparse DETR | 10% | 45.3        | 46.9     | +1.6     | [link](https://twg.kakaocdn.net/brainrepo/sparse_detr/sparse_detr_r50_scrl_10.pth)     |
+|             | 20% | 45.6        | 47.2     | +1.7     | [link](https://twg.kakaocdn.net/brainrepo/sparse_detr/sparse_detr_r50_scrl_20.pth)     |
+|             | 30% | 46.0        | 47.4     | +1.4     | [link](https://twg.kakaocdn.net/brainrepo/sparse_detr/sparse_detr_r50_scrl_30.pth)     |
+|             | 40% | 46.2        | 47.7     | +1.5     | [link](https://twg.kakaocdn.net/brainrepo/sparse_detr/sparse_detr_r50_scrl_40.pth)     |
+|             | 50% | 46.3        | 47.9     | +1.6     | [link](https://twg.kakaocdn.net/brainrepo/sparse_detr/sparse_detr_r50_scrl_50.pth)     |
 
 
 # Citation
